@@ -5,13 +5,21 @@ h1{
 h2{
     background: rgb(53, 91, 244);
 }
+h3{
+    background: greenyellow;
+}
 
 p{
     background: rgb(53, 91, 244);
 }
 
+li{
+    background: greenyellow
+}
+
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
     background: rgb(116, 224, 249);
     text-align: center;
+    font-size: 55px;
 }
