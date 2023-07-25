@@ -1,0 +1,17 @@
+h1{
+    background: rgb(53, 91, 244);
+}
+
+h2{
+    background: rgb(53, 91, 244);
+}
+
+p{
+    background: rgb(53, 91, 244);
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(116, 224, 249);
+    text-align: center;
+}
