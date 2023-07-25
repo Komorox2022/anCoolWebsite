@@ -16,6 +16,10 @@ p{
 li{
     background: greenyellow
 }
+img{
+    width: 500px;
+    height: 500px;
+}
 
 *{
     font-family: 'Kanit', sans-serif;
