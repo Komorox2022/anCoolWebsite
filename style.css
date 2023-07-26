@@ -9,10 +9,6 @@ h3{
     background: greenyellow;
 }
 
-p{
-    background: rgb(53, 91, 244);
-}
-
 li{
     background: greenyellow
 }
@@ -23,6 +19,14 @@ img{
 #logo-image{
     width:300px;
     height:200px;
+}
+
+#big-text{
+    font-size: 75px;
+}
+
+#selected-text{
+    background-color: rgb(53, 158, 244);
 }
 
 *{
