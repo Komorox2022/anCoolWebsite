@@ -2,10 +2,10 @@
 *{
     text-align: center;
     background: #85fff9;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'kanit', sans-serif;
 }
 #intro-text{
-    font-size: 50px;
+    font-size: 75px;
     background: #42c5f5;
 }
 .certifications-awards{
@@ -14,9 +14,17 @@
 a{
     color: black;
 }
-
+#adult-age{
+    color: rgb(255, 94, 0);
+}
+#contact{
+    background:rgb(0, 225, 255);
+}
+#about{
+    background:rgb(0, 225, 255);
+}
 #left-image{
-    align-content: right;
+    
 }
 #right-image{
 
