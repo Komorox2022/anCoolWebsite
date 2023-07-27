@@ -1,40 +1,26 @@
-h1{
-    background: rgb(53, 91, 244);
-}
 
-h2{
-    background: rgb(53, 91, 244);
+*{
+    text-align: center;
+    background: #85fff9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h3{
-    background: greenyellow;
+#intro-text{
+    font-size: 50px;
+    background: #42c5f5;
 }
-
-li{
-    background: greenyellow
-}
-img{
-    width: 500px;
-    height: 500px;
-}
-#logo-image{
-    width:300px;
-    height:200px;
+.certifications-awards{
+    background: #42c5f5;
 }
 a{
     color: black;
 }
-#big-text{
-    font-size: 75px;
-    font-family: 'Tektur', cursive;
-}
 
-#selected-text{
-    background-color: rgb(53, 158, 244);
+#left-image{
+    align-content: right;
 }
+#right-image{
 
-*{
-    font-family: 'Kanit', sans-serif;
-    background: rgb(116, 224, 249);
-    text-align: center;
-    font-size: 25px;
+}
+img{
+    width: 500px;
 }
