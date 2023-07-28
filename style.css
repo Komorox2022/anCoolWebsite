@@ -12,10 +12,14 @@
     background: #42c5f5;
 }
 a{
-    color: rgb(0, 140, 255);
+    color: rgb(0, 0, 0);
 }
 #adult-age{
     color: rgb(255, 94, 0);
+}
+#my-age{
+    background: rgb(0, 87, 128);
+    color: white;
 }
 #contact{
     background:rgb(0, 225, 255);
@@ -23,12 +27,27 @@ a{
 #about{
     background:rgb(0, 225, 255);
 }
-#left-image{
-    
-}
-#right-image{
+#about-and-ceritificates-side{
+    margin: 20px 0px;
+    padding: 50px;
 
+    background:rgb(0, 225, 255);
 }
+
+#about-side{
+    border: 10px solid blue;
+    padding: 20px;
+    background: blue;
+    margin: 40px 0px;
+}
+
+#contact-side{
+    border: 10px solid blue;
+    padding: 20px;
+    background: blue;
+    margin: 40px 0px;
+}
+
 img{
     width: 500px;
 }
