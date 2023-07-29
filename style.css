@@ -4,8 +4,18 @@
     background: #85fff9;
     font-family: 'kanit', sans-serif;
 }
+h1{
+    background: rgb(23, 158, 255);
+}
+h2{
+    background: rgb(23, 158, 255);
+}
+a{
+    background: rgb(0, 87, 128);
+}
 #intro-text{
-    font-size: 125px;
+    font-size: 100px;
+    margin: 0px 0px 40px 0px;
     background: #42c5f5;
 }
 .certifications-awards{
@@ -33,12 +43,20 @@ a{
 
     background:rgb(0, 225, 255);
 }
-
+#my-img-side{
+    background:#85fff9;
+}
 #about-side{
     border: 10px solid blue;
     padding: 20px;
     background: blue;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
+}
+
+#privacy-side{
+    margin: 50% 0px;
+    padding: 250px;
+    padding-bottom: 25% ;
 }
 
 #contact-side{
@@ -50,4 +68,17 @@ a{
 
 img{
     width: 500px;
+}
+#red-box{
+    width: 1000px;
+    height: 150px;
+}
+
+#cap-text{
+    text-transform: uppercase;
+    font-size: 150px;
+    background: #fa4141;
+    margin: 0px 0px 0px 0px;
+    margin-top: -40px;
+    margin-bottom: 25px;
 }
