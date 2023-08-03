@@ -1,84 +1,120 @@
-
 *{
+    background-color: rgb(114, 241, 252);
     text-align: center;
-    background: #85fff9;
-    font-family: 'kanit', sans-serif;
-}
-h1{
-    background: rgb(23, 158, 255);
-}
-h2{
-    background: rgb(23, 158, 255);
-}
-a{
-    background: rgb(0, 87, 128);
-}
-#intro-text{
-    font-size: 100px;
-    margin: 0px 0px 40px 0px;
-    background: #42c5f5;
-}
-.certifications-awards{
-    background: #42c5f5;
-}
-a{
-    color: rgb(0, 0, 0);
-}
-#adult-age{
-    color: rgb(255, 94, 0);
-}
-#my-age{
-    background: rgb(0, 87, 128);
-    color: white;
-}
-#contact{
-    background:rgb(0, 225, 255);
-}
-#about{
-    background:rgb(0, 225, 255);
-}
-#about-and-ceritificates-side{
-    margin: 20px 0px;
-    padding: 50px;
-
-    background:rgb(0, 225, 255);
-}
-#my-img-side{
-    background:#85fff9;
-}
-#about-side{
-    border: 10px solid blue;
-    padding: 20px;
-    background: blue;
-    margin: 40px 0px 0px 0px;
+    font-family:'Courier New', Courier, monospace;
 }
 
-#privacy-side{
-    margin: 50% 0px;
-    padding: 250px;
-    padding-bottom: 25% ;
+#welcome-msg{
+    background-color: rgb(66, 164, 250);
 }
-
-#contact-side{
-    border: 10px solid blue;
-    padding: 20px;
-    background: blue;
-    margin: 40px 0px;
-}
-
-img{
-    width: 500px;
-}
-#red-box{
-    width: 1000px;
-    height: 150px;
-}
-
-#cap-text{
+#my-name{
+    background-color: rgb(255, 89, 0);
     text-transform: uppercase;
-    font-size: 150px;
-    background: #fa4141;
-    margin: 0px 0px 0px 0px;
-    margin-top: -40px;
-    margin-bottom: 25px;
+    font-size: 8rem;
+}
+#komorox-img{
+    height: 26rem;
+    padding: 100px 0px;
+
+    position: relative;
+    right: 25%;
+}
+#what-side{
+    border: 10px solid rgb(34, 147, 178);
+    border-radius: 5%;
+
+    width:550px;
+
+    position: relative;
+    left: 50%;
+    bottom: 600px;
+}
+#contact-page{
+    border: 10px solid rgb(251, 56, 52);
+
+    width: 250px;
+    height: 250px;
+    background-color: rgb(194, 0, 0);
+
+    position: relative;
+    left: 5%;
+
+    margin: 0;
+    padding: 0;
+}
+#about-page{
+    border: 10px solid rgb(251, 56, 52);
+
+    width: 250px;
+    height: 250px;
+    background-color: rgb(194, 0, 0);
+
+    position: relative;
+    left: 75%;
+    bottom: 17rem;
+    
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color: rgb(34, 147, 178);
+    font-weight: bold;
+}
+div#what-side h2{
+    background-color: rgb(138, 1, 1);
+    color: red;
+}
+
+div#about-page a{
+    background-color: red;
+    color: black;
+    
+    position:relative;
+    top: 85px;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#middle-page{
+    width: 1160px;
+    height: 550px;
+
+    background-color:red;
+
+    position: relative;
+    left: 3%;
+    bottom: 600px;
+    border-radius: 25%;
+}
+
+div#contact-page a{
+    background-color: red;
+    
+    position:relative;
+    top: 85px;
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+a{
+    color: black;
+}
+
+div#middle-page > h1, h2, h3, h4, h5, h6, p{
+    background-color: rgb(148, 0, 0);    
+}
+
+div#middle-page > li{
+    background-color: rgb(157, 0, 255);
+    color: rgb(71, 0, 114);
+}
+
+footer > p{
+    background-color: blueviolet;
+} 
+#middle-page img{
+    width: 250px;
+    height: 250px;
 }
