@@ -62,7 +62,7 @@ li{
 }
 div#what-side h2{
     background-color: rgb(138, 1, 1);
-    color: red;
+    color: rgb(100,1,1);
 }
 
 div#about-page a{
@@ -118,6 +118,7 @@ footer > p{
     width: 250px;
     height: 250px;
 }
+<<<<<<< HEAD
 #border-page{
     width: 50px;
     height: 2000px;
@@ -209,3 +210,5 @@ footer > p{
     position: relative;
     bottom: 25px;
 }
+=======
+>>>>>>> 1ff26895b643eadcf302f00f2b1d0aaf6ce1d45a
