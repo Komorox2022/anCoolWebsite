@@ -1,214 +1,24 @@
-
 *{
-    background-color: rgb(114, 241, 252);
+    background-color: aqua;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-size: 2rem;
 }
 
-#welcome-msg{
-    background-color: rgb(66, 164, 250);
+h1{
+    color: blue;
 }
-#my-name{
-    background-color: rgb(255, 89, 0);
-    text-transform: uppercase;
-    font-size: 8rem;
-}
-#komorox-img{
-    height: 26rem;
-    padding: 100px 0px;
 
-    position: relative;
-    right: 25%;
-}
-#what-side{
-    
-    width:650px;
-
-    position: relative;
-    left: 50%;
-    bottom: 600px;
-
-}
-#contact-page{
-    border: 10px solid rgb(251, 56, 52);
-
-    width: 250px;
-    height: 250px;
-    background-color: rgb(194, 0, 0);
-
-    position: relative;
-    left: 5%;
-    bottom: -7rem;
-
-    margin: 0;
-    padding: 0;
-}
-#about-page{
-    border: 10px solid rgb(251, 56, 52);
-
-    width: 250px;
-    height: 250px;
-    background-color: rgb(194, 0, 0);
-
-    position: relative;
-    left: 75%;
-    bottom: 3980px;
-    
-    margin: 0;
-    padding: 0;
-}
 li{
-    background-color: rgb(34, 147, 178);
-    font-weight: bold;
-}
-div#what-side h2{
-    background-color: rgb(138, 1, 1);
-    color: red;
+    color: rgb(1, 1, 179);
 }
 
-div#about-page a{
-    background-color: red;
-    color: black;
-    
-    position:relative;
-    top: 85px;
-
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-#middle-page{
-    width: 1160px;
-    height: 550px;
-
-    background-color:red;
-
+footer{
     position: relative;
-    left: 3%;
-    bottom: 600px;
-    border-radius: 25%;
-
-    margin: 400px 0px;
-}
-
-div#contact-page a{
-    background-color: red;
-    
-    position:relative;
-    top: 85px;
-
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-a{
-    color: black;
-}
-
-div#middle-page > h1, h2, h3, h4, h5, h6, p{
-    background-color: rgb(148, 0, 0);    
-}
-
-div#middle-page > li{
-    background-color: rgb(157, 0, 255);
-    color: rgb(71, 0, 114);
+    top: 4rem;
 }
 
 footer > p{
-    background-color: blueviolet;
-} 
-#middle-page img{
-    width: 250px;
-    height: 250px;
-}
-#border-page{
-    width: 50px;
-    height: 2000px;
-
-    background-color: black;
-
-    position: relative;
-    left: 50%;
-    bottom: 15rem;
-
-}
-#inside{
-    width:25%;
-    height:100%;
-
-    background-color: white;
-
-    position: relative;
-    left: 35%;
-}
-#inside-inside{
-    width: 2000px;
-    height: 50px;
-    background-color: black;
-
-    position: relative;
-    top: 20%;
-    right:10550%;
-}
-
-#inside-inside-inside{
-    background-color: white;
-    height: 25%;
-
-    position: relative;
-    top: 35%;
-}
-#inside-inside-inside-second{
-    background-color: black;
-    height: 100%;
-
-    position: relative;
-    top: 2000%;
-}
-#inside-inside-inside-inside-second{
-    background-color: white;
-    height:32%;
-
-    position: relative;
-    top: 32%;
-}
-#some-div{
-    width: 450px;
-    height: 900px;
-    background-color:red;
-
-    border: 5px solid black;
-
-    position: relative;
-    bottom: 1770px;
-    left: 5%;
-}
-
-#some-div h1{
-    background-color:rgb(255, 0, 128);
-}
-
-#some-div img{
-    position: relative;
-    bottom: 20px;
-}
-
-#some-second-div{
-    width: 450px;
-    height: 900px;
-    background-color:red; 
-
-    border: 5px solid black;
-
-    position: relative;
-    bottom: 2680px;
-    left: 62%;
-}
-
-#some-second-div h1{
-    background-color: rgb(255, 0, 128);
-}
-#some-second-div img{
-    position: relative;
-    bottom: 25px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
 }
