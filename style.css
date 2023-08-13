@@ -1,102 +1,241 @@
 *{
-    background-color: aqua;
+    font-family: 'Black Han Sans', sans-serif;
     text-align: center;
-    font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1, li{
-    color: blue;
-}
+.main-box{
+    width: 1000px;
+    height: 1000px;
 
-footer{
-    position: relative;
-    top: 180px;
-}
-
-ul > li{
-    font-size: 25px;
-}
-
-#title{
-    width: 100%;
-
-    padding: 0;
     margin: 0;
-
-    background-color: blue;
-    position: relative;
-    bottom: 0px;
-    border: 5px solid black;
+    padding: 0;
+    
+    position: absolute;
+    top: 600px;
 }
-#construction{
-    width: 500px;
-    height: 350px;
 
-    border: 10px solid blue;
+body {
+    background-color: aqua;
+}
+
+#left-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
+
     position: relative;
     left: 400px;
-    top: 5rem;
+    top: 242px;
 }
-#construction > img{
-    width: 200px;
+
+#right-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
 
     position: relative;
+    top: 7px;
+    left: 675px;
 }
-#construction > h2{
+
+/* Left side! */
+#left-bottom-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
+
+    position: relative;
+    bottom: 455px;
+    left: 173px;
+}
+#left-upper-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
+
+    position: relative;
+    bottom: 965px;
+    left: 173px;
+}
+
+/* Upper side! */
+#upper-left-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
+
+    position: relative;
+    bottom: 1427px;
+    left: 400px;
+}
+#upper-right-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
+
+    position: relative;
+    bottom: 1662px;
+    left: 675px;
+}
+
+/* Right side! */
+#right-upper-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
+
+    position: relative;
+    bottom: 1670px;
+    left: 902px;
+}
+#right-bottom-box{
+    width: 225px;
+    height: 225px;
+
+    background-color: red;
+
+    position: relative;
+    bottom: 1631px;
+    left: 902px;
+}
+
+#middle-box{
+    width: 500px;
+    height: 500px;
+
+    background-color: red;
+
+    position: relative;
+    left: 40%;
+    top: 25%;
+}
+
+#title-box{
+    width: 1302px;
+    height: 150px;
+
+    margin: 0;
+    padding: 0;
+
+    border: 5px solid black;
+
+    position: absolute;
+    top: 0;
+    left: 0%;
+
+    background-color: rgb(167, 255, 249);
+}
+
+#title-box > h1{
+    font-size: 65px;
+}
+
+.small-box h1{
+    font-size: 15px;
+}
+#down-page{
+    height: 450px;
+    width: 969px; 
+
+    border: 5px solid;
+
+    position: relative;
+    left: 159px;
+
+    bottom: 55%;
+
+    background-color: blue;
+}
+#down-page h1{
     font-size: 25px;
-}
 
-#title > h1{
-    background-color: blue;
-    color: rgb(137, 159, 255);
+    color: aqua;
+}
+#down-page img{
+    width: 500px;
+}
+#left-slide{
+    height: 3698px;
+    width: 150px; 
+
+    border: 10px solid;
+
+    position: absolute;
+    top: 160px;
+    left: 1145px;
+
+    background-color: red;
+}
+#right-slide{
+    height: 3698px;
+    width: 150px;
+
+    border: 10px solid; 
+    
+    position: absolute;
+    top: 160px;
+    right: 1192px;
+
+    background-color: red;
+}
+footer{
+    width: 1300px;
 
     position: relative;
-    top: 20%;
+    left: 0;
+    right: 2%;
 }
-
-footer > p{
+footer p{
     background-color: blue;
-    color: white;
-    font-size: 20px;
+    color: aqua;
 }
+.down-box{
+    width: 900px;
+    height: 400px;
 
-/* PC Screens */
-@media (min-width: 750px){
-    *{
-        font-size: 50px;
-    }
-    #construction{
-        position:absolute; 
-        top: 450px;
-        
-    }
-    footer{
-        position:relative;
-        top: 500px;
-    }
+    background-color: antiquewhite;
+
+    position: relative;
+    left: 20%;
 }
+#about-box{
+    height: 325px;
+    width: 325px;
 
-/* Phone Screens */
-@media (min-width: 385px) and (max-width: 769px) {
-    *{
-        font-size: 150px;
-    }
-    #title{
-        width: 650px;
+    position: relative;
 
-        position: relative;
-        left: 5px;
-    }
-    #construction{
-        position: absolute; 
-        top: 1250px;
-        left: 75px;
-    }
-    footer{
-        position: relative;
-        top: 500px;
-    
-        width: 700px;
-    }
+    left: 5%;
+    top: 10%;
+
+    border: 5px solid;
+
+    margin: 0;
+    background-color: aquamarine;
+}
+#contact-box{
+    height: 325px;
+    width: 325px;
+
+    position: relative;
+
+    left: 58%;
+    bottom: 74%;
+
+    border: 5px solid;
+
+    margin: 0;
+    background-color: aquamarine;
+}
+.small-box img{
+    width: 150px;
+}
+a{
+    color: black;
 }
