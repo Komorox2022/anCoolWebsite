@@ -1,77 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <title>Komorox Website</title>
     
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
-        
-        <title>Komorox's Website!</title>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="title-box">
-            <h1>Komorox's Website!</h1>
+        <div class="logo">
+            <h1>Komorox Website!</h1>
         </div>
-        <div id="left-slide">
-            <img src="https://picsum.photos/145/3695" alt="right slide image!"/>    
+        <div class="table">
+            <a href="">home</a> <a href="">products</a> <a href="">services</a> <a href="">about</a> <a href="">contact</a>
         </div>
-        <div id="right-slide">
-            <img src="https://picsum.photos/145/3695" alt="left slide image!"/> 
+        <div class="product">
+            <img src="data:image/jpeg;base64,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" alt="product photography"/>
+            <p>key selling point of product.</p>
+            <p>key selling point of product.</p>
         </div>
-        <div class="main-box">
-            <div id="middle-box">
-                <h1>Welcome to Komorox's Website, here you will find some interesting topics.</h1>
-                <img src="https://picsum.photos/350" alt="some lorem picsum!"/>
+        <div class="recommendation">
+            <div class="inner left">
+                <p>Hello world!</p>
             </div>
-            <div class="small-box" id="left-box">
-                <h1>life blog!</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
+            <div class="inner right">
+                <p>Hello world!</p>
             </div>
-            <div class="small-box" id="right-box">
-                <h1>Coding stuff!</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
-            </div>
-            <div class="small-box" id="left-bottom-box">
-                <h1>Gym stuff!</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
-            </div>
-            <div class="small-box" id="left-upper-box">
-                <h1>(rarely) gaming stuff!</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
-            </div>
-            <div class="small-box" id="upper-left-box">
-                <h1>Hello world nr.2</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
-            </div>
-            <div class="small-box" id="upper-right-box">
-                <h1>Hello world nr.2</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
-            </div>
-            <div class="small-box" id="right-upper-box">
-                <h1>Hello world nr.2</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
-            </div>
-            <div class="small-box" id="right-bottom-box">
-                <h1>Hello world nr.2</h1>
-                <img src="https://picsum.photos/150" alt="some lorem picsum!"/>
-            </div>
-            <div id="down-page">
-                <h1>Welcome to the down side of the page!</h1>
-                <img src="./waving-hand.avif" alt="down side image!"/>
-            </div>
-            <div class="down-box">
-                <div id="about-box">
-                    <h1><a href="./About.html">About me</a>!</h1>
-                </div>
-                <div id="contact-box">
-                    <h1><a href="./contact.html">Contact Me</a>!</h1>
-                </div>
-            </div>
-            <footer>
-                <p>@Simon 2023</p>
-            </footer>
         </div>
+        <footer>
+            <p>@Simon 2023</p>
+        </footer>
     </body>
 </html>

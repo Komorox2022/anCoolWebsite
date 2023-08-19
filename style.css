@@ -1,241 +1,119 @@
-*{
-    font-family: 'Black Han Sans', sans-serif;
-    text-align: center;
-}
-
-.main-box{
-    width: 1000px;
-    height: 1000px;
-
-    margin: 0;
-    padding: 0;
-    
-    position: absolute;
-    top: 600px;
-}
-
-body {
+body{
     background-color: aqua;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
-#left-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    left: 400px;
-    top: 242px;
-}
-
-#right-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    top: 7px;
-    left: 675px;
-}
-
-/* Left side! */
-#left-bottom-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    bottom: 455px;
-    left: 173px;
-}
-#left-upper-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    bottom: 965px;
-    left: 173px;
-}
-
-/* Upper side! */
-#upper-left-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    bottom: 1427px;
-    left: 400px;
-}
-#upper-right-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    bottom: 1662px;
-    left: 675px;
-}
-
-/* Right side! */
-#right-upper-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    bottom: 1670px;
-    left: 902px;
-}
-#right-bottom-box{
-    width: 225px;
-    height: 225px;
-
-    background-color: red;
-
-    position: relative;
-    bottom: 1631px;
-    left: 902px;
-}
-
-#middle-box{
-    width: 500px;
-    height: 500px;
-
-    background-color: red;
-
-    position: relative;
-    left: 40%;
-    top: 25%;
-}
-
-#title-box{
-    width: 1302px;
+.logo{
+    width: 80%;
     height: 150px;
 
-    margin: 0;
-    padding: 0;
+    background-color: blue;
 
-    border: 5px solid black;
-
-    position: absolute;
-    top: 0;
-    left: 0%;
-
-    background-color: rgb(167, 255, 249);
+    position: relative;
+    left: 10%;
 }
 
-#title-box > h1{
-    font-size: 65px;
+.table {
+    width: 100%;
+    height: 50px;
+
+    background-color: blueviolet;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.small-box h1{
+.logo h1{
+    position: relative;
+    top: 15%;
+}
+
+.table a{
     font-size: 15px;
-}
-#down-page{
-    height: 450px;
-    width: 969px; 
-
-    border: 5px solid;
 
     position: relative;
-    left: 159px;
+    top: 15%;
 
-    bottom: 55%;
-
-    background-color: blue;
-}
-#down-page h1{
-    font-size: 25px;
-
-    color: aqua;
-}
-#down-page img{
-    width: 500px;
-}
-#left-slide{
-    height: 3698px;
-    width: 150px; 
-
-    border: 10px solid;
-
-    position: absolute;
-    top: 160px;
-    left: 1135px;
-
-    background-color: red;
-}
-#right-slide{
-    height: 3698px;
-    width: 150px;
-
-    border: 10px solid; 
-    
-    position: absolute;
-    top: 160px;
-    right: 1127px;
-
-    background-color: red;
-}
-footer{
-    width: 1300px;
-
-    position: relative;
-    left: 0;
-    right: 2%;
-}
-footer p{
-    background-color: blue;
-    color: aqua;
-}
-.down-box{
-    width: 900px;
-    height: 400px;
-
-    background-color: antiquewhite;
-
-    position: relative;
-    left: 20%;
-}
-#about-box{
-    height: 325px;
-    width: 325px;
-
-    position: relative;
-
-    left: 5%;
-    top: 10%;
-
-    border: 5px solid;
-
-    margin: 0;
-    background-color: aquamarine;
-}
-#contact-box{
-    height: 325px;
-    width: 325px;
-
-    position: relative;
-
-    left: 58%;
-    bottom: 74%;
-
-    border: 5px solid;
-
-    margin: 0;
-    background-color: aquamarine;
-}
-.small-box img{
-    width: 150px;
-}
-a{
     color: black;
+}
+
+.product{
+    width: 100%;
+    height: 225px;
+
+    background-color: blue;
+}
+
+.product img{
+    float: left;    
+}
+
+footer p{
+    font-size: 1rem;
+}
+
+footer{
+    clear: both;
+}
+
+.inner{
+    width: 45%;
+    height: 65%;
+
+    background-color: gold;
+
+    position: relative;
+    top: 19%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.recommendation{
+    width: 100%;
+    height: 350px;
+
+    background-color: gray;
+
+    margin-top: 25px;
+}
+
+@media (max-width: 400px){
+    .product p{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .logo h1{
+        font-size: 76px;
+    }
+    .logo{
+        height: 250px;
+    }
+    .table a{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .product{
+        height: 450px;
+    }
+    .product p{
+        font-size: 45px;
+    }
+
+    .product img{
+        width: 35%;
+        height: 90%;
+    }
 }
