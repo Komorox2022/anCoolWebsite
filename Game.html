@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komorox Website!</title>
+    <style>
+        body{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    background-color: blue;
+    height: 100px;
+
+    margin-bottom: 20px;
+    
+}
+
+.container{
+    display: inline-flex;
+}
+
+.logo h1{
+    position: relative;
+    top: 15%;
+
+    font-size: 55px;
+}
+
+.window{
+    width: 100%;
+    height: 1000px;
+
+    background-color: gray;
+}
+
+.window img{
+    width: 500px;
+}
+
+.controls{
+    background-color: rgb(145, 144, 144);
+    width: 50%;
+    height: 25%;
+
+    position: relative;
+    left: 25%;
+
+
+    margin-top: 50px;
+}
+
+.left{
+    position: relative;
+    top: 45%;
+    right: 37%;
+}
+
+.up{
+    position: relative;
+    right: 5%;
+}
+
+.down{
+    position: relative;
+    top: 90%;
+    right: 18%;
+}
+
+.right{
+    position: relative;
+    left: 62%;
+    top: 45%;
+}
+
+.jump-button{
+    position: relative;
+    bottom: 215px;
+    
+    width: 180px;
+    height: 180px;
+}
+button{
+    background-color: #b6b6ff;
+    border: 0;
+}
+
+.some-game-text{
+    background-color: blueviolet;
+    color: violet;
+}
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>Komorox Website!</h1>
+    </div>
+    <div class="container">
+        <div class="window">
+            <p class="some-game-text">some game window!</p>
+            <img src="./resources/game_image.jpeg" alt="some game image!"/>
+            <div class="controls">
+                <button class="move-buttons right">▶️</button>
+                <button class="move-buttons left">◀️</button>
+                <button class="move-buttons up">🔼</button>
+                <button class="move-buttons down">🔽</button>    
+            </div>
+            <button class="jump-button">jump</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,119 +1,59 @@
 body{
     background-color: aqua;
     text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Patua One", sans-serif;
 }
 
 .logo{
-    width: 80%;
+    background-color: rgb(68, 196, 255);
     height: 150px;
-
-    background-color: blue;
-
+    
     position: relative;
-    left: 10%;
-}
-
-.table {
-    width: 100%;
-    height: 50px;
-
-    background-color: blueviolet;
-
-    margin-top: 10px;
-    margin-bottom: 20px;
+    bottom: 25px;
 }
 
 .logo h1{
     position: relative;
-    top: 15%;
+    top: 25%;
+    font-size: 55px;
 }
 
-.table a{
-    font-size: 15px;
+.container{
+    display: flex;
 
-    position: relative;
-    top: 15%;
-
-    color: black;
-}
-
-.product{
     width: 100%;
-    height: 225px;
+    height: 1000px;
 
-    background-color: blue;
+    background-color: rgb(124, 124, 252);
+
+    margin-top: 20px;
+    gap: 10px;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
 }
 
-.product img{
-    float: left;    
-}
-
-footer p{
-    font-size: 1rem;
-}
-
-footer{
-    clear: both;
-}
-
-.inner{
-    width: 45%;
-    height: 65%;
+.card{
+    height: 25%;
 
     background-color: gold;
+}
 
+.card a{
     position: relative;
-    top: 19%;
+    top: 35%;
 }
 
-.left{
-    float: left;
+a{
+    color: rgb(163, 138, 0);
 }
-
-.right{
-    float: right;
+.about{
+    flex: 1 0 150px;
 }
-
-.recommendation{
-    width: 100%;
-    height: 350px;
-
-    background-color: gray;
-
-    margin-top: 25px;
+.play{
+    flex: 1 0 250px;
 }
-
-@media (max-width: 400px){
-    .product p{
-        font-size: 15px;
-    }
-    
-}
-
-@media (max-width: 650px){
-    .logo h1{
-        font-size: 76px;
-    }
-    .logo{
-        height: 250px;
-    }
-    .table a{
-        font-size: 10px;
-    }
-}
-
-@media (min-width: 1000px) {
-    .product{
-        height: 450px;
-    }
-    .product p{
-        font-size: 45px;
-    }
-
-    .product img{
-        width: 35%;
-        height: 90%;
-    }
+.contact{
+    flex: 1 0 250px;
 }
