@@ -3,96 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Komorox Website!</title>
-    <style>
-        body{
-    background-color: aqua;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    <title>Game Website!</title>
 
-.logo{
-    background-color: blue;
-    height: 100px;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
 
-    margin-bottom: 20px;
-    
-}
-
-.container{
-    display: inline-flex;
-}
-
-.logo h1{
-    position: relative;
-    top: 15%;
-
-    font-size: 55px;
-}
-
-.window{
-    width: 100%;
-    height: 1000px;
-
-    background-color: gray;
-}
-
-.window img{
-    width: 500px;
-}
-
-.controls{
-    background-color: rgb(145, 144, 144);
-    width: 50%;
-    height: 25%;
-
-    position: relative;
-    left: 25%;
-
-
-    margin-top: 50px;
-}
-
-.left{
-    position: relative;
-    top: 45%;
-    right: 37%;
-}
-
-.up{
-    position: relative;
-    right: 5%;
-}
-
-.down{
-    position: relative;
-    top: 90%;
-    right: 18%;
-}
-
-.right{
-    position: relative;
-    left: 62%;
-    top: 45%;
-}
-
-.jump-button{
-    position: relative;
-    bottom: 215px;
-    
-    width: 180px;
-    height: 180px;
-}
-button{
-    background-color: #b6b6ff;
-    border: 0;
-}
-
-.some-game-text{
-    background-color: blueviolet;
-    color: violet;
-}
-    </style>
+    <link rel="stylesheet" href="./styles/game.css"/>
 </head>
 <body>
     <div class="logo">
@@ -101,15 +18,19 @@ button{
     <div class="container">
         <div class="window">
             <p class="some-game-text">some game window!</p>
-            <img src="./resources/game_image.jpeg" alt="some game image!"/>
+            <p class="some-score-text">Score: 0</p>
+            <img class="game-on-img" src="./assets/game_image.jpeg" alt="some game image!"/>
             <div class="controls">
-                <button class="move-buttons right">▶️</button>
-                <button class="move-buttons left">◀️</button>
-                <button class="move-buttons up">🔼</button>
-                <button class="move-buttons down">🔽</button>    
+                <button class="button right">D / ▶️</button>
+                <button class="button left">A / ◀️</button>
+                <button class="button up">W / 🔼</button>
+                <button class="button down">S / 🔽</button>    
+                <button class="button jump">space / jump</button>
             </div>
-            <button class="jump-button">jump</button>
         </div>
     </div>
+    <footer>
+        <p>@2023 Simon</p>        
+    </footer>
 </body>
 </html>

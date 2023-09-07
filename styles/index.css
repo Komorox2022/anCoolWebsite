@@ -1,0 +1,95 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    font-family: "Patua One", sans-serif;
+}
+
+.logo{
+    background-color: rgb(68, 196, 255);
+
+    
+    position: relative;
+}
+
+.logo h1{
+    position: relative;
+    top: 25%;
+    font-size: 55px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #43affc;
+
+}
+
+.card a{
+    position: relative;
+    top: 35%;
+}
+
+a{
+    color: rgb(0, 68, 163);
+}
+
+.about{
+    flex-basis: 150px;
+}
+.play{
+    flex-basis: 250px;
+}
+.contact{
+    flex-basis: 250px;
+}
+
+.middle-container{
+    display: grid;
+    
+    background-color:#43affc;
+
+    gap: 10px;
+    grid-template: 50vh 25vh 1fr 1fr / 1fr 1fr 1fr 1fr;
+    
+    margin-top: 50px;
+}
+
+.middle-card{
+    background-color: #25508c;
+}
+
+.middle{
+    order: -1;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+footer p{
+    background-color: blue;
+    color: white;
+}
+
+@media (min-width: 551px){
+    .logo h1{
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 550px) {
+    .logo h1{
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 115px) and (max-width: 389px){
+    .logo h1{
+        font-size: 25px;
+    }
+}
