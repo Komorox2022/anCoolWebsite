@@ -63,7 +63,7 @@ body {
 }
 
 .game-on-img{
-    width: 100%;
+    width: 500px;
 }
 
 .some-score-text{
@@ -90,5 +90,16 @@ footer p{
     }
     .some-game-text, .some-score-text{
         font-size: 25px;
+    }
+}
+@media (min-width: 400px) and (max-width: 649px) {
+    .game-on-img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 300px){
+    .game-on-img{
+        width: 250px;
     }
 }

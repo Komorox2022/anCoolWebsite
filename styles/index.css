@@ -39,6 +39,10 @@ a{
     color: rgb(0, 68, 163);
 }
 
+a:hover{
+    color: white;
+}
+
 .about{
     flex-basis: 150px;
 }
@@ -55,7 +59,7 @@ a{
     background-color:#43affc;
 
     gap: 10px;
-    grid-template: 50vh 25vh 1fr 1fr / 1fr 1fr 1fr 1fr;
+    grid-template: 50vh auto 1fr 1fr / 1fr 1fr 1fr 1fr;
     
     margin-top: 50px;
 }
@@ -69,6 +73,10 @@ a{
 
     grid-column-start: 2;
     grid-column-end: 4;
+}
+
+.middle img{
+    width: 250px;
 }
 
 .left{
@@ -90,10 +98,19 @@ footer p{
     .logo h1{
         font-size: 45px;
     }
+   
 }
 
 @media (min-width: 115px) and (max-width: 389px){
     .logo h1{
         font-size: 25px;
     }
+
+}
+
+@media(max-widtH: 1000px){
+    .middle-container p{
+        font-size: 10px;
+    }
+
 }
